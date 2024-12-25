@@ -18,7 +18,7 @@ class EdgeImpulseUploader:
                  api_url="https://ingestion.edgeimpulse.com/api/training/files"):
         self.api_key = api_key
         self.api_url = api_url
-        self.label = "suara knalpot motor"  # Default label
+        self.label = "Sound Recorded"  # Default label
 
     def upload_audio_to_edge_impulse(self, audio_filename):
         try:
