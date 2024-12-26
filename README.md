@@ -7,6 +7,7 @@ This project demonstrates how to build a PyQt6 application for voice recording A
 1. Yudhistira Ananda Kuswantoro (2042231015)
 2. Aireka Maulana Erawan (2042231047)
 3. M Daffi Aryatama (2042231075)
+4. Ahmad Radhy (Supervisor)
 
 ## Features
 1. **Voice Recording and Replay** : You can record audio from your audio input device using a simple intuitive GUI, and then you can replay your recorded audio.
@@ -32,14 +33,17 @@ git clone https://github.com/Yuhira213/SPSemotiondetect-QTproject
 
 ### 2. Open the File named QTProject.py
 
-### 3. Prepare the Edge Impulse Account that want to be integrated to Programs.
+### 3. Install the Library that needed for the program to run
+install the required libraries such as librosa, numpy, matplotlib, sys, requests, os, sounddevice, wavio, scipy.io, PyQt5, and pyqtgraph
+
+### 4. Prepare the Edge Impulse Account that want to be integrated to Programs.
 ```bash
 > After creating an account, open the keys page
 > Then click Add New API Key > Make sure to change the role to 'Ingestion'
 > Then Click 'Create API Key' (make sure to copy the API Key)
 ```
 
-### 4. Change the API Key of the EdgeImpulse ingestion
+### 5. Change the API Key of the EdgeImpulse ingestion
 **Check the Line 15 of the QTProject.py**
 ```bash
 class EdgeImpulseUploader:
